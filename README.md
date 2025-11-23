@@ -11,6 +11,8 @@ cd home/phs/pms-rafael/demo/pacific-sch/ # MODULO
 #### ACCEDER LOGS DEL SERVIDOR SAAS 1
 
 ```bash
+clear
+
 ssh root@159.89.190.153 "tail -f /var/log/php-fpm/main-error.log"
 
 ```
@@ -18,12 +20,16 @@ ssh root@159.89.190.153 "tail -f /var/log/php-fpm/main-error.log"
 #### ACCEDER LOGS DEL SERVIDOR SAAS 2
 
 ```bash
+clear
+
 ssh root@142.93.64.142 "tail -f /var/log/php-fpm/main-error.log"
 
 ```
 #### ACCEDER LOGS DEL SERVIDOR SAAS 4
 
 ```bash
+clear
+
 ssh root@167.71.111.172 "tail -f /var/log/php-fpm/main-error.log"
 
 ```
