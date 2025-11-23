@@ -29,6 +29,15 @@ GRANT ALL ON TABLE gbl_email_log TO "phs-adm" , "phs-user", "phs-soap";
 # AQUI: /home/phs/pms-rafael/demo/pacific-sch/lib/model/doctrine/GblEmailLog.class.php
 ```
 
+#### VERIFICADORES
+
+```php
+#TESTING USE EXECUTE
+$this->getResponse()->setHttpHeader("X-Debug-Execute", '{"X-USE_THIS_AJAX_HERE!"}');
+#TESTING USE JAVASCRIPT FRONTEND
+console.log(transport.getResponseHeader("X-Debug-Execute", 'X-USE_THIS_AJAX_HERE!'));
+```
+
 ---
 
 #### TRAZAR & DEBUGUEAR
