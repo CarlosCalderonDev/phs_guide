@@ -25,6 +25,16 @@ clear
 ssh root@142.93.64.142 "tail -f /var/log/php-fpm/main-error.log"
 
 ```
+
+#### ACCEDER LOGS DEL SERVIDOR SAAS 3
+
+```bash
+clear
+
+ssh root@45.55.49.177 "tail -f /var/log/php-fpm/main-error.log"
+
+```
+
 #### ACCEDER LOGS DEL SERVIDOR SAAS 4
 
 ```bash
@@ -51,5 +61,6 @@ cd /home/phs/pms-rafael/demo/pacific-com
 cd ../pms-scripts/pms-install/ && ./pms-rsync -p pacific-com
 
 ./pms-rsync -p pacific-com
+
 
 ```
