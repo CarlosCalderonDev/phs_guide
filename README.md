@@ -44,6 +44,15 @@ ssh root@167.71.111.172 "tail -f /var/log/php-fpm/main-error.log"
 
 ```
 
+#### ACCEDER LOGS DEL SERVIDOR SAAS 5
+
+```bash 
+clear
+
+ssh root@134.209.167.217 "tail -f /var/log/php-fpm/main-error.log"
+
+```
+
 #### SINCRONIZAR SERVIDORES 1
 
 ```bash
@@ -64,3 +73,4 @@ cd ../pms-scripts/pms-install/ && ./pms-rsync -p pacific-com
 
 
 ```
+
